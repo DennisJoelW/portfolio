@@ -45,7 +45,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </div>
 
       <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
-        <h3 className="text-xl font-bold mb-2 truncate w-full max-w-[90%] whitespace-nowrap overflow-hidden">{project.title}</h3>
+        <h3 className="text-xl font-bold mb-2 w-full whitespace-nowrap overflow-hidden">{project.title}</h3>
         <p className="text-gray-400 mb-4 line-clamp-2">{project.description}</p>
 
         <Link href={`/project/${project.id}`}>
