@@ -6,7 +6,6 @@ import { notFound } from "next/navigation"
 import { ArrowLeft, ExternalLink, Github } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { projects } from "@/lib/projects"
-import { param } from "framer-motion/client"
 
 // Update the project detail page to include mobile device frames for mobile projects
 export default function ProjectPageClient({ id }: { id: string }) {
