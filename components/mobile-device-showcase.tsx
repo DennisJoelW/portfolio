@@ -17,7 +17,7 @@ const mobileProjects: MobileProject[] = [
     id: "resepku",
     title: "ResepKu",
     description: "Food Recipe Seeker App",
-    image: "/placeholder.svg?height=600&width=280",
+    image: "/images/resepku_mobile_preview.png",
   },
   {
     id: "sneakerz-react-native",

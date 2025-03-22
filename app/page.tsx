@@ -23,7 +23,7 @@ export default function Home() {
           <div className="text-2xl font-bold tracking-tighter">
             <span className="text-[#47E3E3] cursor-pointer">Dennis</span><span className="cursor-pointer">Joel</span>
           </div>
-          <div className="flex gap-6">
+          <div className="md:flex hidden gap-6">
             <Link href="#about" className="hover:text-[#47E3E3] transition-colors">
               About
             </Link>
