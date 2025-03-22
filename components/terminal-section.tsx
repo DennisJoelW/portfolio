@@ -70,13 +70,13 @@ export default function TerminalSection() {
               >
                 <div className="text-green-400">✓ Portfolio initialized successfully</div>
                 <div className="text-gray-400 mt-2">
-                  <span className="text-[#47E3E3]">→</span> Mobile App Developer --Jetpack Compose --React Native
+                  <span className="text-[#47E3E3]">→</span> Mobile App Developer --Android Kotlin --React Native
                 </div>
                 <div className="text-gray-400">
                   <span className="text-[#47E3E3]">→</span> Front End Developer  --Next.js --Remix.js
                 </div>
                 <div className="text-gray-400">
-                  <span className="text-[#47E3E3]">→</span> Back End Developer --Express
+                  <span className="text-[#47E3E3]">→</span> Back End Developer --Node.js --Express.js
                 </div>
                 <div className="mt-4 text-yellow-400">Ready to explore projects...</div>
               </motion.div>
