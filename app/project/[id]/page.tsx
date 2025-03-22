@@ -7,8 +7,7 @@ export async function generateStaticParams() {
   }))
 }
 
-export default async function ProjectPage({ params }: { params: { id: string } }) {
-  const id = params.id
-  return <ProjectPageClient id={id} />
+export default function ProjectPage({ params }: { params: { id: string } }) {
+  return <ProjectPageClient id={params.id} />;
 }
 

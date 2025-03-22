@@ -106,15 +106,15 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
             <p className="text-gray-300 mb-6">
-              I'm a passionate developer with expertise in creating modern web and mobile applications. My journey in
+              Im a passionate developer with expertise in creating modern web and mobile applications. My journey in
               tech has led me to work on diverse projects from AI chatbots to e-commerce platforms.
             </p>
             <p className="text-gray-300 mb-8">
-              I specialize in React, Next.js, React Native, and modern frontend technologies, with a strong focus on
-              creating intuitive and visually stunning user interfaces.
+              I specialize in Android Jetpack Compose, Next.js, React Native, and modern frontend technologies, with a strong focus on
+              creating intuitive and visually stunning user interfaces. also experienced with backend technologies such as Express.js, Node.js and Supabase
             </p>
             <div className="flex flex-wrap gap-3">
-              {["React", "Next.js", "TypeScript", "Node.js", "React Native", "UI/UX Design"].map((skill) => (
+              {["Android Kotlin","Kotlin Jetpack Compose","React", "Next.js","React Native", "Node.js",  "UI/UX Design"].map((skill) => (
                 <span key={skill} className="px-3 py-1 bg-gray-800 text-[#47E3E3] rounded-full text-sm">
                   {skill}
                 </span>
