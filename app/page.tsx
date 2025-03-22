@@ -8,6 +8,7 @@ import TerminalSection from "@/components/terminal-section"
 import MobileDeviceShowcase from "@/components/mobile-device-showcase"
 
 export default function Home() {
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white">
       {/* Hero Section with Animated Background */}
@@ -45,9 +46,11 @@ export default function Home() {
             Creating innovative digital experiences with a focus on user-centered design and cutting-edge technology.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button className="bg-[#47E3E3] hover:bg-[#3bc7c7] text-black font-medium">
-              View Projects <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <Link href={"#projects"} className=" cursor-pointer">
+              <Button className="bg-[#47E3E3] hover:bg-[#3bc7c7] text-black font-medium">
+                View Projects <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
             <Button variant="outline" className="border-[#47E3E3] text-[#47E3E3] hover:bg-[#47E3E3]/10">
               Contact Me
             </Button>
