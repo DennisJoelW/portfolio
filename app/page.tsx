@@ -6,6 +6,7 @@ import { projects } from "@/lib/projects"
 import ProjectCard from "@/components/project-card"
 import TerminalSection from "@/components/terminal-section"
 import MobileDeviceShowcase from "@/components/mobile-device-showcase"
+import RecentProjects from "@/components/recent-projects"
 
 export default function Home() {
 
@@ -65,8 +66,11 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Add this after the hero section and before the projects section */}
+      {/* Terminal Section */}
       <TerminalSection />
+
+      {/* Recent Projects Section */}
+      <RecentProjects />
 
       {/* Projects Section */}
       <section id="projects" className="py-20 px-4 md:px-8 relative">
@@ -79,8 +83,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto relative z-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
             <span className="relative">
-              MY PROJECTS
-              <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-[#47E3E3]"></span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#47E3E3] to-blue-400">Other Projects</span>
+              <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#47E3E3] to-blue-400"></span>
             </span>
           </h2>
 
@@ -109,7 +113,8 @@ export default function Home() {
           <div className="md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
             <p className="text-gray-300 mb-6">
-              Im a passionate developer with expertise in creating modern web and mobile applications. My journey in
+              Im a passionate developer with expertise in creating modern web and mobile applications. 
+              Graduated from Tarumangara University with 3.91 GPA in Information System. My journey in
               tech has led me to work on diverse projects from AI chatbots to e-commerce platforms.
             </p>
             <p className="text-gray-300 mb-8">

@@ -49,8 +49,8 @@ export default function MobileDeviceShowcase() {
       <div className="max-w-7xl mx-auto relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
           <span className="relative">
-            MOBILE PROJECTS
-            <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-[#47E3E3]"></span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#47E3E3] to-blue-400">Mobile Projects</span>
+            <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#47E3E3] to-blue-400"></span>
           </span>
         </h2>
 

@@ -6,10 +6,14 @@ import { notFound } from "next/navigation"
 import { ArrowLeft, ExternalLink, Github } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { projects } from "@/lib/projects"
+import { recentProjects } from "@/lib/recent-projects"
+
+// Combine both project sources
+const allProjects = [...projects, ...recentProjects]
 
 // Update the project detail page to include mobile device frames for mobile projects
 export default function ProjectPageClient({ id }: { id: string }) {
-  const project = projects.find((p) => p.id === id)
+  const project = allProjects.find((p) => p.id === id)
 
   if (!project) {
     notFound()
@@ -132,7 +136,7 @@ export default function ProjectPageClient({ id }: { id: string }) {
 
               <div className="space-y-3">
                 {project.liveUrl && (
-                  <Button className="w-full bg-[#47E3E3] hover:bg-[#3bc7c7] text-black">
+                  <Button className="w-full bg-[#47E3E3] hover:bg-[#3bc7c7] text-black" onClick={() => window.open(project.liveUrl)}>
                     <ExternalLink className="mr-2 h-4 w-4" /> Live Preview
                   </Button>
                 )}
@@ -151,7 +155,7 @@ export default function ProjectPageClient({ id }: { id: string }) {
       <div className="max-w-6xl mx-auto px-4 py-16 border-t border-gray-800 relative z-10">
         <h2 className="text-3xl font-bold mb-12 text-center">More Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {projects
+          {allProjects
             .filter((p) => p.id !== project.id)
             .slice(0, 3)
             .map((p) => (
