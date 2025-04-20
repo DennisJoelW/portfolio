@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
-import { recentProjects } from "@/lib/recent-projects"
+import { recentProjects } from "@/lib/recent-projects" //u
 
 export default function RecentProjects() {
   return (
