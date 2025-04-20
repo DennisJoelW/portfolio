@@ -27,7 +27,7 @@ export const recentProjects: Project[] = [
     title: "VadExp | Expense Tracker",
     description: "Smart expense tracking web app with image transaction detection that automatically extracts amount data from receipt screenshots.",
     longDescription: 
-      "VadExp is an innovative expense tracking application that simplifies financial management through advanced image recognition technology. The platform can automatically extract transaction details from receipt images, including amounts, dates, and vendors, streamlining the expense logging process.",
+      "VadExp is an innovative expense tracking application that simplifies financial management through advanced image recognition technology. The platform can automatically extract transaction amount from receipt images.",
     image: "/images/vadexp.png",
     type: "Web Application",
     technologies: ["Next.js", "OCR API", "Supabase"],
@@ -35,8 +35,6 @@ export const recentProjects: Project[] = [
       "OCR-powered receipt scanning and data extraction",
       "Automatic amount and merchant detection from images",
       "Expense categorization and budget tracking",
-      "Financial insights and spending patterns analysis",
-      "Exportable reports for financial planning"
     ],
     year: 2025,
     liveUrl: "https://vadexp.vercel.app",
@@ -48,7 +46,7 @@ export const recentProjects: Project[] = [
     title: "Coming Soon | Future Project",
     description: "A new project currently in development.",
     longDescription: "Details about this exciting new project will be revealed soon. Stay tuned for updates on the latest innovation.",
-    image: "/images/placeholder.svg",
+    image: "/images/goatsplit.png",
     type: "Web Application",
     technologies: ["???"],
     features: [
@@ -57,6 +55,6 @@ export const recentProjects: Project[] = [
       "Feature 3 coming soon"
     ],
     year: 2025,
-    gallery: ["/images/placeholder.svg"]
+    gallery: ["/images/goatsplit.png"]
   }
 ] 
