@@ -108,13 +108,13 @@ export default function MobileDeviceShowcase() {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {currentIndex === 0 &&
-                    ["React Native", "Firebase", "Redux", "Food API"].map((tech) => (
+                    ["Jetpack Compose", "MVVM", "Food API"].map((tech) => (
                       <span key={tech} className="px-3 py-1 bg-gray-800 text-[#47E3E3] rounded-full text-sm">
                         {tech}
                       </span>
                     ))}
                   {currentIndex === 1 &&
-                    ["React Native", "Redux", "Firebase", "AR Kit"].map((tech) => (
+                    ["React Native", "Redux", "Appwrite"].map((tech) => (
                       <span key={tech} className="px-3 py-1 bg-gray-800 text-[#47E3E3] rounded-full text-sm">
                         {tech}
                       </span>

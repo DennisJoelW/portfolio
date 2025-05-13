@@ -122,7 +122,7 @@ export default function Home() {
               creating intuitive and visually stunning user interfaces. also experienced with backend technologies such as Express.js, Node.js and Supabase
             </p>
             <div className="flex flex-wrap gap-3">
-              {["Android Kotlin","Kotlin Jetpack Compose","React", "Next.js","React Native", "Node.js",  "UI/UX Design"].map((skill) => (
+              {["Android Kotlin","Kotlin Jetpack Compose","React","Typescript", "Next.js","React Native", "Node.js",  "UI/UX Design"].map((skill) => (
                 <span key={skill} className="px-3 py-1 bg-gray-800 text-[#47E3E3] rounded-full text-sm">
                   {skill}
                 </span>

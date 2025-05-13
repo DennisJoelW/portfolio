@@ -42,38 +42,51 @@ const sneakerz_web_images = [
   "/images/sneakerz_web3.png"
 ]
 
-const bestinteria_images = [
-  "/images/bestinteria1.png",
-  "/images/bestinteria2.png",
-  "/images/bestinteria3.png",
-  "/images/bestinteria4.png",
-  "/images/bestinteria5.png",
-  "/images/bestinteria6.png",
-  "/images/bestinteria7.png",
-]
+
 
 export const projects: Project[] = [
   {
-    id: "bestinteria",
-    title: "Best Interia | Interior Sales Website",
-    description: "A web-based e-commerce platform for interior products, specializing in window fashion and room accessories.",
-    longDescription:
-      "Best Interia is a modern e-commerce platform designed for selling interior products, including blinds, curtains, and screens. Built with a user-friendly interface, it allows customers to browse, filter, and order products seamlessly. The admin panel provides easy order management and tracking.",
-    image: bestinteria_images[0],
+    id: "goatsplit",
+    title: "GoatSplit | Fitness Tracker",
+    description: "A comprehensive web application for tracking fitness progressive overload",
+    longDescription: 
+      "GoatSplit is a powerful fitness tracking web application designed to help users monitor and optimize their training progress. Built with a focus on tracking progressive overload, the app enables users to log workouts, track personal records, and visualize strength gains over time.",
+    image: "/images/goatsplit.png",
     type: "Web Application",
-    technologies: ["React.js", "Supabase", "TailwindCSS"],
+    technologies: ["Next.js", "Tailwind", "Supabase"],
     features: [
-      "Product catalog with image galleries",
-      "Dynamic product filtering without a separate filter button",
-      "User authentication and order history",
-      "Admin dashboard for order and payment management",
-      "Integrated payment confirmation system",
+      "Progressive overload tracking with visual metrics",
+      "Workout plan creation and customization",
+      "Personal records and achievement tracking",
+      "Exercise library with proper form instructions",
+      "Progress analytics and performance insights"
+    ],
+    year: 2025,
+    liveUrl: "https://goatsplit.vercel.app",
+    githubUrl: "https://github.com/username/goatsplit",
+    gallery: ["/images/goatsplit.png"]
+  },
+  {
+    id: "vadexp",
+    title: "VadExp | Expense Tracker",
+    description: "Smart expense tracking app with image transaction detection that automatically extracts amount data from receipt screenshots.",
+    longDescription: 
+      "VadExp is an innovative expense tracking application that simplifies financial management through advanced image recognition technology. The platform can automatically extract transaction amount from receipt images.",
+    image: "/images/vadexp2.png",
+    type: "Mobile Application",
+    technologies: ["React Native", "OCR API", "Supabase"],
+    features: [
+      "OCR-powered receipt scanning and data extraction",
+      "Automatic amount and merchant detection from images",
+      "Expense categorization and budget tracking",
     ],
     year: 2025,
     liveUrl: "",
-    githubUrl: "https://github.com/yourusername/bestinteria",
-    gallery: bestinteria_images,
+    githubUrl: "https://github.com/username/vadexp",
+    gallery: ["/images/vadexp2.png"],
+    mobilePreview: "/images/mobile_vadexp.png" // TODO: Add mobile preview phot
   },
+
   {
     id: "smartchat",
     title: "SmartChat | Virtual Assistant Bot",

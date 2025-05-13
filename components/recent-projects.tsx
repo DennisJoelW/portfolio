@@ -17,7 +17,7 @@ export default function RecentProjects() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#47E3E3] to-blue-400">Recent Projects</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#47E3E3] to-blue-400">Freelance Projects</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-[#47E3E3] to-blue-400 mx-auto"></div>
           <p className="text-gray-300 mt-6 max-w-2xl mx-auto">Showcasing my latest works that blend beautiful design with powerful functionality</p>
