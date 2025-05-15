@@ -48,12 +48,12 @@ export const projects: Project[] = [
   {
     id: "goatsplit",
     title: "GoatSplit | Fitness Tracker",
-    description: "A comprehensive web application for tracking fitness progressive overload",
+    description: "A comprehensive mobile application for tracking fitness progressive overload",
     longDescription: 
-      "GoatSplit is a powerful fitness tracking web application designed to help users monitor and optimize their training progress. Built with a focus on tracking progressive overload, the app enables users to log workouts, track personal records, and visualize strength gains over time.",
+      "GoatSplit is a powerful fitness tracking application designed to help users monitor and optimize their training progress. Built with a focus on tracking progressive overload, the app enables users to log workouts, track personal records, and visualize strength gains over time.",
     image: "/images/goatsplit.png",
     type: "Web Application",
-    technologies: ["Next.js", "Tailwind", "Supabase"],
+    technologies: ["React Native", "Redux", "Nativewind", "Supabase"],
     features: [
       "Progressive overload tracking with visual metrics",
       "Workout plan creation and customization",
@@ -74,7 +74,7 @@ export const projects: Project[] = [
       "VadExp is an innovative expense tracking application that simplifies financial management through advanced image recognition technology. The platform can automatically extract transaction amount from receipt images.",
     image: "/images/vadexp2.png",
     type: "Mobile Application",
-    technologies: ["React Native", "OCR API", "Supabase"],
+    technologies: ["React Native", "Zustand", "OCR API", "Supabase"],
     features: [
       "OCR-powered receipt scanning and data extraction",
       "Automatic amount and merchant detection from images",
