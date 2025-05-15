@@ -62,7 +62,7 @@ export const projects: Project[] = [
       "Progress analytics and performance insights"
     ],
     year: 2025,
-    liveUrl: "https://goatsplit.vercel.app",
+    liveUrl: "",
     githubUrl: "https://github.com/username/goatsplit",
     gallery: ["/images/goatsplit.png"]
   },
