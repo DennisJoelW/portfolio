@@ -42,7 +42,7 @@ export const recentProjects: Project[] = [
   {
     id: "limitlessgymapp",
     title: "Limitless Gym | Class Booking Mobile App",
-    description: "A powerful mobile app for seamless fitness facility bookings and real-time schedule management.",
+    description: "A powerful mobile app for seamless fitness class bookings and real-time schedule management for limitless fitness.",
     longDescription:
       "Limitless is a feature-rich mobile application built for limitless gym  to streamline the booking process for classes. Developed using React Native, Redux, and modern mobile technologies, it is built for members to browse availability, make instant bookings, and manage their workout schedules—all within an intuitive and responsive interface. Designed with performance and user experience in mind, Limitless bridges the gap between fitness enthusiasts and facility providers.",
     image: "/images/limitles.png",
