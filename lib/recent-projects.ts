@@ -28,7 +28,45 @@ const samanko_images = [
   "/images/samanko_6.png",
 ]
 
+const limitless_images = [
+  "/images/badak0.jpg",
+  "/images/badak1.jpg",
+  "/images/badak2.jpg",
+  "/images/badak3.jpg",
+  "/images/badak4.jpg",
+  "/images/badak5.jpg",
+  "/images/badak6.jpg",
+]
+
 export const recentProjects: Project[] = [
+  {
+    id: "limitlessgymapp",
+    title: "Limitless Gym | Class Booking Mobile App",
+    description: "A powerful mobile app for seamless fitness facility bookings and real-time schedule management.",
+    longDescription:
+      "Limitless is a feature-rich mobile application built for limitless gym  to streamline the booking process for classes. Developed using React Native, Redux, and modern mobile technologies, it is built for members to browse availability, make instant bookings, and manage their workout schedules—all within an intuitive and responsive interface. Designed with performance and user experience in mind, Limitless bridges the gap between fitness enthusiasts and facility providers.",
+    image: "/images/limitles.png",
+    type: "Mobile Application",
+    technologies: [
+      "React Native",
+      "Expo",
+      "Redux",
+      "Tailwind CSS (via NativeWind)",
+      "TypeScript",
+    ],
+    features: [
+      "Facility and class booking with real-time availability",
+      "User authentication and profile management",
+      "Booking history and upcoming schedules",
+      "Push notifications for booking reminders",
+      "Dark mode and responsive design",
+    ],
+    year: 2025,
+    liveUrl: "", 
+    githubUrl: "https://github.com/yourusername/limitless",
+    gallery: limitless_images,
+    mobilePreview: limitless_images[3],
+  },  
   {
     id: "bestinteria",
     title: "Best Interia | Interior Sales Website",
